@@ -206,7 +206,7 @@
                 <li><strong>Einstellungen:</strong> App-Einstellungen, Thema (Hell/Dunkel), Sprache</li>
             </ul>
 
-            <h3>3.3 Premium-Abonnement-Daten</h3>
+            <h3>3.3 Premium-Abonnement-Daten (falls zutreffend)</h3>
             <ul>
                 <li><strong>Abonnement-Status:</strong> Aktiv/Inaktiv</li>
                 <li><strong>Purchase Token:</strong> Zahlungsverifizierung (von Google Play verwaltet)</li>
@@ -331,6 +331,7 @@
             <p>Sie können Ihr Konto und alle Daten jederzeit löschen:</p>
             <ul>
                 <li><strong>In der App:</strong> Profil → Einstellungen → Konto löschen</li>
+                <li><strong>Online:</strong> <a href="delete-account.html">Account-Löschung</a></li>
             </ul>
 
             <h3>7.4 Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</h3>
@@ -347,7 +348,7 @@
                 <li>Werden Daten nur lokal auf Ihrem Gerät gespeichert</li>
                 <li>Keine Cloud-Synchronisation verfügbar</li>
                 <li>Daten gehen bei App-Deinstallation verloren</li>
-                <li>Eingeschränkte Features</li>
+                <li>Eingeschränkte Features (kein Premium, keine Bildanalyse)</li>
             </ul>
 
             <h2>9. Kinder</h2>
@@ -361,12 +362,14 @@
                 Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren. Änderungen werden in der App angezeigt.
                 Die aktuelle Version finden Sie immer unter diesem Link.
             </p>
+            <p><strong>Letzte Änderung:</strong> 17. Dezember 2025</p>
 
             <h2>11. Kontakt</h2>
             <div class="contact-box">
                 <p><strong>Bei Fragen zum Datenschutz kontaktieren Sie uns:</strong></p>
                 <p>
-                    E-Mail: <a href="mailto:smartcheffai@gmail.com">smartcheffai@gmail.com</a>
+                    E-Mail: <a href="mailto:smartcheffai@gmail.com">smartcheffai@gmail.com</a><br>
+                    Account löschen: <a href="delete-account.html">Hier klicken</a>
                 </p>
             </div>
         </div>
@@ -419,12 +422,13 @@
                 <li><strong>Settings:</strong> App preferences, theme (Light/Dark), language</li>
             </ul>
 
-            <h3>3.3 Premium Subscription Data</h3>
+            <h3>3.3 Premium Subscription Data (if applicable)</h3>
             <ul>
                 <li><strong>Subscription Status:</strong> Active/Inactive</li>
                 <li><strong>Purchase Token:</strong> Payment verification (managed by Google Play)</li>
                 <li><strong>Expiry Date:</strong> Subscription validity period</li>
             </ul>
+            <p><em>Note: Payment information is processed directly by Google Play. We have no access to your credit card data.</em></p>
 
             <h3>3.4 AI-Generated Content</h3>
             <ul>
@@ -494,12 +498,14 @@
             <h3>5.3 Google Play Billing</h3>
             <ul>
                 <li><strong>Purpose:</strong> Processing premium subscriptions</li>
+                <li><strong>Data:</strong> Purchase tokens, subscription status</li>
             </ul>
 
             <h3>5.4 AdMob (Advertising - free users only)</h3>
             <ul>
                 <li><strong>Purpose:</strong> Displaying personalized ads</li>
                 <li><strong>Data:</strong> Advertising ID, device information</li>
+                <li><strong>Opt-Out:</strong> You can disable personalized ads in Android settings</li>
             </ul>
             <p><strong>Privacy:</strong> <a href="https://policies.google.com/privacy" target="_blank">AdMob Privacy Policy</a></p>
 
@@ -515,6 +521,7 @@
             <ul>
                 <li>Encrypted data transmission (HTTPS/TLS)</li>
                 <li>Firebase Security Rules for access control</li>
+                <li>Server-side verification of premium status</li>
                 <li>Secure authentication via Google Sign-In</li>
             </ul>
 
@@ -522,7 +529,8 @@
             <ul>
                 <li><strong>Account Data:</strong> Until account deletion</li>
                 <li><strong>Learning Progress:</strong> Until account deletion</li>
-                <li><strong>Uploaded Images:</strong> Deleted immediately after processing</li>
+                <li><strong>Uploaded Images:</strong> Deleted immediately after processing (not permanently stored)</li>
+                <li><strong>Crash Reports:</strong> 90 days (Firebase Crashlytics)</li>
                 <li><strong>Deleted Accounts:</strong> Data completely deleted within 30 days</li>
             </ul>
 
@@ -533,34 +541,51 @@
             <p>You can request information about your stored data.</p>
 
             <h3>7.2 Right to Rectification (Art. 16 GDPR)</h3>
-            <p>You can correct incorrect data directly in the app.</p>
+            <p>You can correct incorrect data directly in the app (Profile → Settings).</p>
 
             <h3>7.3 Right to Deletion (Art. 17 GDPR)</h3>
-            <p>You can delete your account and all data at any time.</p>
+            <p>You can delete your account and all data at any time:</p>
+            <ul>
+                <li><strong>In App:</strong> Profile → Settings → Delete Account</li>
+                <li><strong>Online:</strong> <a href="delete-account.html">Account Deletion</a></li>
+            </ul>
 
             <h3>7.4 Right to Data Portability (Art. 20 GDPR)</h3>
-            <p>You can request a copy of your data.</p>
+            <p>You can request a copy of your data (contact us via email).</p>
+
+            <h3>7.5 Right to Object (Art. 21 GDPR)</h3>
+            <p>You can object to data processing at any time.</p>
 
             <h2>8. Guest Mode</h2>
             <p>
-                You can use the app without an account in guest mode. Data is only stored locally.
+                You can use the app without an account in guest mode. In this case:
             </p>
+            <ul>
+                <li>Data is only stored locally on your device</li>
+                <li>No cloud synchronization available</li>
+                <li>Data is lost when app is uninstalled</li>
+                <li>Limited features (no premium, no image analysis)</li>
+            </ul>
 
             <h2>9. Children</h2>
             <p>
-                Our app is intended for users aged 13 and above.
+                Our app is intended for users aged 13 and above. We do not knowingly collect data from children under 13.
+                If you believe we have accidentally collected data from a child under 13, please contact us.
             </p>
 
             <h2>10. Changes to This Privacy Policy</h2>
             <p>
-                We reserve the right to update this Privacy Policy.
+                We reserve the right to update this Privacy Policy. Changes will be displayed in the app.
+                The current version can always be found at this link.
             </p>
+            <p><strong>Last Update:</strong> December 17, 2025</p>
 
             <h2>11. Contact</h2>
             <div class="contact-box">
                 <p><strong>For privacy questions, contact us:</strong></p>
                 <p>
-                    Email: <a href="mailto:smartcheffai@gmail.com">smartcheffai@gmail.com</a>
+                    Email: <a href="mailto:smartcheffai@gmail.com">smartcheffai@gmail.com</a><br>
+                    Delete Account: <a href="delete-account.html">Click here</a>
                 </p>
             </div>
         </div>
@@ -568,14 +593,21 @@
 
     <script>
         function switchLanguage(lang) {
+            // Hide all content
             document.querySelectorAll('.language-content').forEach(el => {
                 el.classList.remove('active');
             });
+
+            // Show selected content
             document.getElementById('content-' + lang).classList.add('active');
+
+            // Update buttons
             document.querySelectorAll('.language-switch button').forEach(btn => {
                 btn.classList.remove('active');
             });
             document.getElementById('btn-' + lang).classList.add('active');
+
+            // Update page language
             document.documentElement.lang = lang;
         }
     </script>
